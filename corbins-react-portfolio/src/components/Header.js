@@ -1,16 +1,18 @@
 import React, { useState } from 'react';
 
 function Header() {
-    const [header, setHeader] = useState([]);
+    const [header, setHeader] = useState("About");
 
     return (
         <div className='header'>
-            <div className='header-welcome'>
-                {/* Welcome message goes here */}
-            </div>
+            <h1 className='header-welcome'>
+                Welcome User!
+            </h1>
+
+            <p className='welcome-p'>You are viewing Corbin Cutter's web development portfolio.</p>
 
             <div className='header-nav'>
-                {/* navbar goes here */}
+                <Navigation />
             </div>
 
         </div>
