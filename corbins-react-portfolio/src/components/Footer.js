@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 
-
-// Footer
-
-
-
-
+function Footer() {
+    return (
+        <div>
+            <main>
+                <p>Footer</p>
+            </main>
+        </div>
+    );
+};
 
 export default Footer;

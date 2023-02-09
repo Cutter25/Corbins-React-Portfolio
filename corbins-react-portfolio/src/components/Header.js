@@ -5,6 +5,7 @@ import Navigation from './Navigation';
 import About from './About'
 import Work from './Work';
 import Contact from './Contact';
+import Resume from './Resume';
 
 
 
@@ -43,7 +44,6 @@ function Header() {
             <main>
                 <div>{renderPage(currentPage)}</div>
             </main>
-
         </div>
     );
 };
