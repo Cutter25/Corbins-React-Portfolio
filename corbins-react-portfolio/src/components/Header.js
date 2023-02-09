@@ -2,13 +2,17 @@ import React, { useState } from 'react';
 
 // Importing components
 import Navigation from './Navigation';
+import About from './About'
+import Work from './Work';
+import Contact from './Contact';
+
 
 
 
 function Header() {
     const [currentPage, handlePageChange] = useState("About");
 
-// Found amazing renderPage function that utilizes a switch statement to render each different page! 
+// Found amazing renderPage function that utilizes a switch statement to render each different page! Uses state hook to do so.
     const renderPage = () => {
         switch(currentPage) {
             case 'About':

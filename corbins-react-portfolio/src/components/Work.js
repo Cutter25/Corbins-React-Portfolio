@@ -1,13 +1,13 @@
 import React from "react";
 
-function About() {
+function Work() {
     return (
         <div>
             <main>
-                <p>About Me!!</p>
+                <p>Work Here!</p>
             </main>
         </div>
     );
 };
 
-export default About
+export default Work
