@@ -3,8 +3,27 @@ import React, { useState } from 'react';
 // Importing components
 import Navigation from './Navigation';
 
+
+
 function Header() {
-    const [header, setHeader] = useState("About");
+    const [currentPage, handlePageChange] = useState("About");
+
+// Found amazing renderPage function that utilizes a switch statement to render each different page! 
+    const renderPage = () => {
+        switch(currentPage) {
+            case 'About':
+                return <About />;
+            case 'Work':
+                return <Work />;
+            case 'Contact':
+                return <Contact />;
+            case 'Resume':
+                return <Resume />;
+
+            default:
+                return <About />
+        };
+    };
 
     return (
         <div className='header'>
@@ -15,8 +34,11 @@ function Header() {
             <p className='welcome-p'>You are viewing Corbin Cutter's web development portfolio.</p>
 
             <div className='header-nav'>
-                <Navigation />
+                <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
             </div>
+            <main>
+                <div>{renderPage(currentPage)}</div>
+            </main>
 
         </div>
     );
