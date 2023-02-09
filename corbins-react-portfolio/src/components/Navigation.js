@@ -6,16 +6,13 @@ function Navigation(props) {
 
     return(
         <div>
-            <ul>
+            <ul className='nav-list'>
                 {navButtons.map((navButton) => (
                     <li className={props.currentPage === navButton ? "nav-item is-active" : "nav-item"}key={navButton}>
                         <a href={"#" + navButton.toLowerCase()}
-                            // Whenever a tab is clicked on,
-                            // the current page is set through the handlePageChange props.
                             onClick={() => props.handlePageChange(navButton)}
-                            className={
-                                props.currentPage === navButton ? "nav-link active" : "nav-link"
-                            }>
+                            className={props.currentPage === navButton ? "nav-link active" : "nav-link"}
+                        >
                                 {navButton}
                         </a>
                     </li>
@@ -24,9 +21,5 @@ function Navigation(props) {
         </div>
     )
 };
-
-
-
-
 
 export default Navigation;

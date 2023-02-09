@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 
+// Importing components
+import Navigation from './Navigation';
+
 function Header() {
     const [header, setHeader] = useState("About");
 

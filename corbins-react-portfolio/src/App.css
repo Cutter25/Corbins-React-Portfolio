@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.header {
+  background-color: #b4ffff;
+  padding: 0;
+}
+
+.header-welcome {
+  margin: 0;
+  height: 50px;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.welcome-p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
