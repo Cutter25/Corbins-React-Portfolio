@@ -37,8 +37,9 @@
   }
 }
 
+/* Header */
 .header {
-  background-color: #b4ffff;
+  background-color: #dbf4ff;
   padding-top: 25px;
 }
 
@@ -55,21 +56,68 @@
   padding-left: 5%;
   padding-right: 5%;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 20px;
+  font-size: 30px;
 }
 
+/* Navigation */
 .nav-list {
   list-style-type: none;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  text-decoration: none;
+  margin-top: 50px;
+  margin-bottom: 50px;
   padding: 0;
+  font-size: 20px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.nav-item {
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.nav-link {
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: none;
+  color:  rgb(117, 117, 117);
+  opacity: .5;
+}
+
+.nav-link:hover {
+  opacity: 1;
+  transition-duration: .8s;
+}
+
+/* About me */
 .about-me-pic {
-  height: 200px;
+  height: 250px;
   width: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(0, 58, 139);
 }
 .about-me-p {
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 40px;  
+}
+
+/* Work section */
+.project-container {
+  display: inline-block;
+  height: 400px;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  background-color: rgb(255, 169, 169);
 }

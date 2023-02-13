@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 function Footer() {
     return (
         <div>
-            <main>
+            <main className='footer'>
                 <p>Footer</p>
             </main>
         </div>

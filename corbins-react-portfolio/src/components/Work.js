@@ -4,10 +4,33 @@ function Work() {
     return (
         <div>
             <main>
-                <p>Work Here!</p>
+                <div className="project-container">
+
+
+                </div>
+
+                <div className="project-container">
+
+                </div>
+
+                <div className="project-container">
+
+                </div>
+
+                <div className="project-container">
+
+                </div> 
+
+                <div className="project-container">
+
+                </div>
+
+                <div className="project-container">
+
+                </div>
             </main>
         </div>
     );
 };
 
-export default Work
+export default Work;
