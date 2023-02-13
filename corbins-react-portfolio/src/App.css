@@ -155,7 +155,7 @@
   height: 200px;
   text-align: center;
   text-decoration: none;
-  color: darkgray;
+  color: rgb(71, 71, 71);
   float: left;
   position: relative;
   bottom: 250px;
@@ -164,6 +164,8 @@
   font-size: 50px;
   opacity: .005;
   box-shadow: 5px 5px 5px rgb(20, 74, 150);
+  background-color: white;
+  border-radius: 10px;
 }
 
 .project-container:hover .project-live-site {
