@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { validateEmail } from '../utils/helpers';
 
 function Contact() {
+    const [name, setName] = useState('');
     const [email, setEmail] = useState('');
-    const [userName, setUserName] = useState('');
-    const [password, setPassword] = useState('');
+    const [message, setMessage] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
 
     const handleInputChange = (e) => {
@@ -14,12 +14,14 @@ function Contact() {
         const inputValue = target.value;
     
         // Based on the input type, we set the state of either email, username, and password
-        if (inputType === 'email') {
+        if (inputType === 'name') {
+          setName(inputValue);
+          setErrorMessage('Name required')
+        } else if (inputType === 'email') {
           setEmail(inputValue);
-        } else if (inputType === 'userName') {
-          setUserName(inputValue);
+          setErrorMessage('Email required')
         } else {
-          setPassword(inputValue);
+          setMessage(inputValue);
         }
       };
     
@@ -28,47 +30,52 @@ function Contact() {
         e.preventDefault();
     
         // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
-        if (!validateEmail(email) || !userName) {
-          setErrorMessage('Email or username is invalid');
+        if (!validateEmail(email)) {
+          setErrorMessage('Your email is invalid.');
           // We want to exit out of this code block if something is wrong so that the user can correct it
           return;
-          // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
         }
-        alert(`Hello ${userName}`);
-    
+        if (!e.target.value.length) {
+            setErrorMessage(`A name is required.`);
+        }
         // If everything goes according to plan, we want to clear out the input after a successful registration.
-        setUserName('');
-        setPassword('');
+        setName('');
+        setEmail('');
         setEmail('');
       };
     
 
     return (
         <div>
-      <p>Hello {userName}</p>
-      <form className="form">
-        <input
-          value={userName}
-          name="userName"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="Name"
-        />
-          <input
-          value={email}
-          name="email"
-          onChange={handleInputChange}
-          type="email"
-          placeholder="Email"
-        />
-        <input
-          value={password}
-          name="password"
-          onChange={handleInputChange}
-          type="password"
-          placeholder="Password"
-        />
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
+            <form className="contact-form">
+                <input
+                    className='name-and-email-input'
+                    value={name}
+                    name="name"
+                    onChange={handleInputChange}
+                    type="text"
+                    placeholder="Name"
+                    onBlur={handleInputChange}
+                />
+                <input
+                    className='name-and-email-input'
+                    value={email}
+                    name="email"
+                    onChange={handleInputChange}
+                    type="email"
+                    placeholder="Email"
+                    onBlur={handleInputChange}
+                />
+                <input
+                    className='message-input'
+                    value={message}
+                    name="message"
+                    onChange={handleInputChange}
+                    type="message"
+                    placeholder="What can I help you with?"
+                    onBlur={handleInputChange}
+                />
+        <button className="contact-submit-button" type="button" onClick={handleFormSubmit}>Submit</button>
       </form>
       {errorMessage && (
         <div>
