@@ -41,7 +41,8 @@ function Contact() {
         // If everything goes according to plan, we want to clear out the input after a successful registration.
         setName('');
         setEmail('');
-        setEmail('');
+        setMessage('');
+        setErrorMessage('Submission complete!');
       };
     
 
