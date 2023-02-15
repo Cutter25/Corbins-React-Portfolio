@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Corbins-React-Portfolio/static/css/main.27d2da4f.css",
+    "main.js": "/Corbins-React-Portfolio/static/js/main.64290e75.js",
+    "static/js/787.41bafc7d.chunk.js": "/Corbins-React-Portfolio/static/js/787.41bafc7d.chunk.js",
+    "static/media/logo.svg": "/Corbins-React-Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Corbins-React-Portfolio/index.html",
+    "main.27d2da4f.css.map": "/Corbins-React-Portfolio/static/css/main.27d2da4f.css.map",
+    "main.64290e75.js.map": "/Corbins-React-Portfolio/static/js/main.64290e75.js.map",
+    "787.41bafc7d.chunk.js.map": "/Corbins-React-Portfolio/static/js/787.41bafc7d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27d2da4f.css",
+    "static/js/main.64290e75.js"
+  ]
+}
