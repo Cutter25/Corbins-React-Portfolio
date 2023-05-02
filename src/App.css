@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 .App {
   text-align: center;
 }
@@ -47,7 +49,7 @@
   margin: 0;
   height: 50px;
   padding: 0;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .welcome-p {
@@ -55,7 +57,7 @@
   margin-bottom: 10px;
   padding-left: 5%;
   padding-right: 5%;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 30px;
 }
 
@@ -67,7 +69,7 @@
   margin-bottom: 50px;
   padding: 0;
   font-size: 20px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .nav-item {
@@ -107,7 +109,7 @@
   margin-right: auto;
   margin-bottom: 0;
   padding-bottom: 50px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 40px;  
 }
 
@@ -122,7 +124,7 @@
   margin-bottom: 50px;
   border-radius: 10px;
   background-color: #bdebff;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: large;
 }
 
@@ -160,7 +162,7 @@
   position: relative;
   bottom: 250px;
   left: 50px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 50px;
   opacity: .005;
   box-shadow: 5px 5px 5px rgb(31, 95, 184);
@@ -223,11 +225,11 @@
   border-radius: 10px;
   background-color: rgb(146, 255, 146);
   font-size: 30px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .error-text {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 25px;
   color: rgb(121, 121, 121);
 }
@@ -241,7 +243,7 @@
   margin-top: 50px;
   margin-bottom: 50px;
   font-size: 30px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background-color: rgb(146, 255, 146);
   border-radius: 10px;
   padding: 10px;
@@ -270,7 +272,7 @@
   margin-top: 30px;
   margin-bottom: 30px;
   font-size: 30px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .footer-github {
