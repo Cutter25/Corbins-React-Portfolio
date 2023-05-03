@@ -100,7 +100,7 @@
   margin-top: 50px;
   margin-bottom: 50px;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px rgb(31, 95, 184);
+  box-shadow: 5px 5px 5px rgb(121, 121, 121);
 }
 .about-me-p {
   width: 50%;
@@ -110,6 +110,7 @@
   margin-bottom: 0;
   padding-bottom: 50px;
   font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
   line-height: 40px;  
 }
 
@@ -132,7 +133,7 @@
   width: 100%;
   height: 100%;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px rgb(31, 95, 184);
+  box-shadow: 5px 5px 5px rgb(121, 121, 121);
 }
 
 .project-container:hover .project-img {
@@ -149,7 +150,7 @@
   bottom: 250px;
   right: 50px;
   opacity: .005;
-  box-shadow: 5px 5px 5px rgb(31, 95, 184);
+  box-shadow: 5px 5px 5px rgb(121, 121, 121);
 }
 
 .project-live-site {
@@ -165,7 +166,7 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 50px;
   opacity: .005;
-  box-shadow: 5px 5px 5px rgb(31, 95, 184);
+  box-shadow: 5px 5px 5px rgb(121, 121, 121);
   background-color: white;
   border-radius: 10px;
 }

@@ -7,7 +7,19 @@ function About() {
                 <img className="about-me-pic" src={process.env.PUBLIC_URL + "/images/IMG_2468.jpg"} alt="Headshot photograph of Corbin Cutter"/>
                 
                 <p className="about-me-p">Hello user! My name is Corbin Cutter. I am an aspiring full-stack web developer/ software engineer.
-                I am proficient in HTML, CSS, Javascript, SQL, React, and I plan to master many more computer languages.</p>
+                I am proficient in front-end and back-end web development languages. One of my future goals is to master many more computer languages that will
+                enable me to do much more!</p>
+
+                <p className="tech-stack-p">Tech Stack</p>
+                <img></img>
+                <img></img>
+                <img></img>
+                <img></img>
+                <img></img>
+                <img></img>
+                <img></img>
+                <img></img>
+
             </main>
         </div>
     );
