@@ -11,14 +11,14 @@ function About() {
                 enable me to do much more!</p>
 
                 <p className="tech-stack-p">Tech Stack</p>
-                <img></img>
-                <img></img>
-                <img></img>
-                <img></img>
-                <img></img>
-                <img></img>
-                <img></img>
-                <img></img>
+                <img alt=""></img>
+                <img alt=""></img>
+                <img alt=""></img>
+                <img alt=""></img>
+                <img alt=""></img>
+                <img alt=""></img>
+                <img alt=""></img>
+                <img alt=""></img>
 
             </main>
         </div>
