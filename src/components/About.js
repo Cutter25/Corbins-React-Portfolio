@@ -20,14 +20,15 @@ function About() {
                 My passion for computer engineering is bright and I aim to channel that energy into my career as a developer.</p>
 
                 <p className="tech-stack-p">Tech Stack</p>
-                <img alt=""></img>
-                <img alt=""></img>
-                <img alt=""></img>
-                <img alt=""></img>
-                <img alt=""></img>
-                <img alt=""></img>
-                <img alt=""></img>
-                <img alt=""></img>
+                <img className="" alt=""></img>
+                <img className="" alt=""></img>
+                <img className="" alt=""></img>
+                <img className="" alt=""></img>
+                <img className="" alt=""></img>
+                <img className="" alt=""></img>
+                <img className="" alt=""></img>
+                <img className="" alt=""></img>
+                <img className="" alt=""></img>
 
             </main>
         </div>
