@@ -129,6 +129,54 @@
   text-align: left;
 }
 
+.python-logo {
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+}
+
+.typescript-logo {
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+}
+
+.javascript-logo {
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+}
+
+.react-logo {
+  height: 100px;
+  width: 110px;
+  margin: 50px;
+}
+
+.sql-logo {
+  height: 100px;
+  width: 225px;
+  margin: 50px;
+}
+
+.nodejs-logo {
+  height: 100px;
+  width: 150px;
+  margin: 50px;
+}
+
+.css-logo {
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+}
+
+.html-logo {
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+}
+
 /* Work section */
 .project-container {
   display: inline-block;

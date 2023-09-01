@@ -20,15 +20,15 @@ function About() {
                 My passion for computer engineering is bright and I aim to channel that energy into my career as a developer.</p>
 
                 <p className="tech-stack-p">Tech Stack</p>
-                <img className="" alt=""></img>
-                <img className="" alt=""></img>
-                <img className="" alt=""></img>
-                <img className="" alt=""></img>
-                <img className="" alt=""></img>
-                <img className="" alt=""></img>
-                <img className="" alt=""></img>
-                <img className="" alt=""></img>
-                <img className="" alt=""></img>
+                <img className="python-logo" alt="Python Logo" src={process.env.PUBLIC_URL + "/images/pythonLogo2.png"}></img>
+                <img className="typescript-logo" alt="TypeScript Logo" src={process.env.PUBLIC_URL + "/images/typeScriptLogo.png"}></img>
+                <img className="javascript-logo" alt="JavaScript Logo" src={process.env.PUBLIC_URL + "/images/javaScriptLogo.png"}></img>
+                <img className="react-logo" alt="React Logo" src={process.env.PUBLIC_URL + "/images/reactLogo.png"}></img>
+                <img className="nodejs-logo" alt="Node JS Logo" src={process.env.PUBLIC_URL + "/images/nodeJSLogo.png"}></img>
+                <img className="sql-logo" alt="SQl Logo" src={process.env.PUBLIC_URL + "/images/sqlLogo.png"}></img>
+                <img className="css-logo" alt="CSS Logo" src={process.env.PUBLIC_URL + "/images/cssLogo.png"}></img>
+                <img className="html-logo" alt="HTML Logo" src={process.env.PUBLIC_URL + "/images/htmlLogo2.png"}></img>
+                <img className="" alt="" src={process.env.PUBLIC_URL + ""}></img>
 
             </main>
         </div>
