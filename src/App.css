@@ -52,15 +52,6 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-.welcome-p {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding-left: 5%;
-  padding-right: 5%;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 30px;
-}
-
 /* Navigation */
 .nav-list {
   list-style-type: none;
@@ -74,14 +65,12 @@
 
 .nav-item {
   display: inline-block;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 30px;
 }
 
 .nav-item-is-active {
   display: inline-block;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 30px;
 }
 
 .nav-link {
@@ -111,70 +100,71 @@
 .about-me-pic {
   height: 250px;
   width: 200px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   border-radius: 10px;
   box-shadow: 5px 5px 5px rgb(121, 121, 121);
 }
 .about-me-p {
-  width: 50%;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 30px;
+  margin-bottom: 30px;
   padding-bottom: 50px;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   line-height: 40px;  
-  text-align: left;
+  text-align: center;
 }
 
 .python-logo {
-  height: 100px;
-  width: 100px;
-  margin: 50px;
+  display: inline-block;
+  height: 75px;
+  width: 75px;
+  margin: 20px;
 }
 
 .typescript-logo {
-  height: 100px;
-  width: 100px;
-  margin: 50px;
+  height: 75px;
+  width: 75px;
+  margin: 20px;
 }
 
 .javascript-logo {
-  height: 100px;
-  width: 100px;
-  margin: 50px;
+  height: 75px;
+  width: 75px;
+  margin: 20px;
 }
 
 .react-logo {
-  height: 100px;
-  width: 110px;
-  margin: 50px;
+  height: 75px;
+  width: 85px;
+  margin: 20px;
 }
 
 .sql-logo {
-  height: 100px;
-  width: 225px;
-  margin: 50px;
+  height: 75px;
+  width: 125px;
+  margin: 20px;
 }
 
 .nodejs-logo {
-  height: 100px;
-  width: 150px;
-  margin: 50px;
+  height: 75px;
+  width: 125px;
+  margin: 20px;
 }
 
 .css-logo {
-  height: 100px;
-  width: 100px;
-  margin: 50px;
+  height: 75px;
+  width: 75px;
+  margin: 20px;
 }
 
 .html-logo {
-  height: 100px;
-  width: 100px;
-  margin: 50px;
+  height: 75px;
+  width: 75px;
+  margin: 20px;
 }
 
 /* Work section */
@@ -325,8 +315,7 @@
   background-color: lightgray;
   color: rgb(93, 93, 93);
   width: 100%;
-  height: 400px;
-  margin: 0;
+  height: 250px
 }
 
 .footer-p {

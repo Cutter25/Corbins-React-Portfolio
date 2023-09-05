@@ -35,9 +35,7 @@ function Header() {
             <h1 className='header-welcome'>
                 Welcome User!
             </h1>
-
-            <p className='welcome-p'>You are viewing Corbin Cutter's web development portfolio.</p>
-
+            
             <div className='header-nav'>
                 <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
             </div>
