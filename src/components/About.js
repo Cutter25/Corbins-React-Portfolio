@@ -19,7 +19,6 @@ function About() {
                 So, working with a team is one of my many strengths!
                 My passion for computer engineering is bright and I aim to channel that energy into my career as a developer.</p>
 
-                <p className="tech-stack-p">Tech Stack</p>
                 <img className="python-logo" alt="Python Logo" src={process.env.PUBLIC_URL + "/images/pythonLogo2.png"}></img>
                 <img className="typescript-logo" alt="TypeScript Logo" src={process.env.PUBLIC_URL + "/images/typeScriptLogo.png"}></img>
                 <img className="javascript-logo" alt="JavaScript Logo" src={process.env.PUBLIC_URL + "/images/javaScriptLogo.png"}></img>
