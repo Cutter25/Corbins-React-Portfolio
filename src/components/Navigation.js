@@ -9,16 +9,11 @@ function Navigation(props) {
             <ul className='nav-list'>
                 {navButtons.map((navButton) => (
                     <li className={props.currentPage === navButton ? "nav-item-is-active" : "nav-item"} key={navButton}>
-                        <a href={"#" + navButton.toLowerCase()}
-                            onClick={() => props.handlePageChange(navButton)}
-                            className={props.currentPage === navButton ? "nav-link-active" : "nav-link"}>
-                                {navButton}
+                        <a href={"#" + navButton.toLowerCase()} onClick={() => props.handlePageChange(navButton)} 
+                        className={props.currentPage === navButton ? "nav-link-active" : "nav-link"}> {navButton}
                         </a>
                     </li>
                 ))}
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-                </a>
             </ul>
         </div>
     )
