@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Hamburger from './Hamburger';
 
 function Navigation(props) {
     const navButtons = ['About', 'Work', 'Contact', 'Resume'];
@@ -15,6 +15,10 @@ function Navigation(props) {
                     </li>
                 ))}
             </ul>
+            
+            <div className='Hamburger'>
+                <Hamburger />
+            </div>
         </div>
     )
 };

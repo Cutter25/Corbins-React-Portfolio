@@ -96,6 +96,25 @@
   text-underline-offset: 5px;
 }
 
+.hamburger {
+  width: 200px;
+  height: 30px;
+  display: flex;
+  margin-left: 10px;
+  justify-content: space-around;
+  flex-flow: column nowrap;
+  z-index: 10;
+}
+
+.burger {
+  width: 40px;
+  height: 4px;
+  border-radius: 10px;
+  background-color: black;
+  transform-origin: 1px;
+  transition: all .3s linear;
+} 
+
 /* About me */
 .about-me-pic {
   height: 250px;
