@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Hamburger from './Hamburger';
 
 function Navigation(props) {
     const navButtons = ['About', 'Work', 'Contact', 'Resume'];
+
+    const [hamburgerOpen, setHamburgeropen] = useState(false);
+
+    const toggleHamburger= () => {
+        setHamburgeropen(!hamburgerOpen)
+    }
 
     return(
         <div>
@@ -15,8 +21,8 @@ function Navigation(props) {
                     </li>
                 ))}
             </ul>
-            
-            <div className='Hamburger'>
+
+            <div className='Hamburger' onClick={toggleHamburger}>
                 <Hamburger />
             </div>
         </div>
