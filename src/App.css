@@ -53,15 +53,6 @@
 }
 
 /* Navigation */
-.nav-list {
-  list-style-type: none;
-  text-decoration: none;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding: 0;
-  font-size: 20px;
-  font-family: 'Open Sans', sans-serif;
-}
 
 .nav-item {
   display: inline-block;

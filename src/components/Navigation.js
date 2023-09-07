@@ -25,6 +25,23 @@ function Navigation(props) {
             <div className='Hamburger' onClick={toggleHamburger}>
                 <Hamburger />
             </div>
+
+            <style jsx>{`
+
+                .nav-list {
+                    display: ${hamburgerOpen ? 'inline-block' : 'none'};
+                    background-color: lightgray;
+                    height: 200px;
+                    width: 100&;
+                    margin-top: 50px;
+                    list-style-type: none;
+                    text-decoration: none;
+                    padding: 0;
+                    font-size: 20px;
+                    font-family: 'Open Sans', sans-serif;
+                }
+
+            `}</style>
         </div>
     )
 };
